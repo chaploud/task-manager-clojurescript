@@ -1,0 +1,9 @@
+{:lint-as {reagent.core/with-let clojure.core/let
+           re-frame.core/reg-sub clojure.core/defn
+           re-frame.core/reg-event-fx clojure.core/defn
+           re-frame.core/reg-event-db clojure.core/defn}
+ :linters {:unresolved-symbol {:level :error
+                               :exclude [js/console
+                                         js/document
+                                         js/window
+                                         js/fetch]}}}

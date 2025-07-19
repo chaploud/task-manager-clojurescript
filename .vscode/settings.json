@@ -1,0 +1,23 @@
+{
+  "calva.replConnectSequences": [
+    {
+      "name": "shadow-cljs",
+      "projectType": "shadow-cljs",
+      "cljsType": "shadow-cljs",
+      "builds": [
+        "app",
+        "test"
+      ]
+    }
+  ],
+  "calva.customREPLCommandSnippets": [
+    {
+      "name": "Tap current form",
+      "snippet": "(tap> $current-form)"
+    },
+    {
+      "name": "Inspect app state",
+      "snippet": "@re-frame.db/app-db"
+    }
+  ]
+}
